@@ -27,12 +27,29 @@ final class LearnXCTextTests: XCTestCase {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testHaterStartsNicely() {
+        let hater = Hater()
+        
+        XCTAssertFalse(hater.isHating, "New haters should not be hating.")
     }
-
+    
+    func testHaterHatesAfterBadDay() {
+        var hater = Hater()
+        hater.hadABadDay()
+        
+        XCTAssertTrue(hater.isHating, "Haters should hate after a bad day.")
+    }
+    
+    
+    func testHaterHappyAfterGoodDay() {
+        // Given
+        var hater = Hater()
+        
+        // When
+        hater.hadAGoodDay()
+        
+        // Then
+        XCTAssertFalse(hater.isHating, "Haters should not be hating after a good day.")
+    }
 }
