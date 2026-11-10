@@ -6,15 +6,12 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		167616BD30A3823C009754EA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 167616BC30A3823C009754EA /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		167616A030A37598009754EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1676168A30A37596009754EA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1676169130A37596009754EA;
-			remoteInfo = LearnXCText;
-		};
-		167616AA30A37598009754EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1676168A30A37596009754EA /* Project object */;
 			proxyType = 1;
@@ -26,7 +23,7 @@
 /* Begin PBXFileReference section */
 		1676169230A37596009754EA /* LearnXCText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnXCText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1676169F30A37598009754EA /* LearnXCTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnXCTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		167616A930A37598009754EA /* LearnXCTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnXCTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167616BC30A3823C009754EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +35,6 @@
 		167616A230A37598009754EA /* LearnXCTextTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LearnXCTextTests;
-			sourceTree = "<group>";
-		};
-		167616AC30A37598009754EA /* LearnXCTextUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LearnXCTextUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -58,20 +50,15 @@
 			files = (
 			);
 		};
-		167616A630A37598009754EA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			files = (
-			);
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		1676168930A37596009754EA = {
 			isa = PBXGroup;
 			children = (
+				167616BC30A3823C009754EA /* README.md */,
 				1676169430A37596009754EA /* LearnXCText */,
 				167616A230A37598009754EA /* LearnXCTextTests */,
-				167616AC30A37598009754EA /* LearnXCTextUITests */,
 				1676169330A37596009754EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,7 +68,6 @@
 			children = (
 				1676169230A37596009754EA /* LearnXCText.app */,
 				1676169F30A37598009754EA /* LearnXCTextTests.xctest */,
-				167616A930A37598009754EA /* LearnXCTextUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,27 +114,6 @@
 			productReference = 1676169F30A37598009754EA /* LearnXCTextTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		167616A830A37598009754EA /* LearnXCTextUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 167616B730A37598009754EA /* Build configuration list for PBXNativeTarget "LearnXCTextUITests" */;
-			buildPhases = (
-				167616A530A37598009754EA /* Sources */,
-				167616A630A37598009754EA /* Frameworks */,
-				167616A730A37598009754EA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				167616AB30A37598009754EA /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				167616AC30A37598009754EA /* LearnXCTextUITests */,
-			);
-			name = LearnXCTextUITests;
-			productName = LearnXCTextUITests;
-			productReference = 167616A930A37598009754EA /* LearnXCTextUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -163,10 +128,6 @@
 						CreatedOnToolsVersion = 27.1;
 					};
 					1676169E30A37598009754EA = {
-						CreatedOnToolsVersion = 27.1;
-						TestTargetID = 1676169130A37596009754EA;
-					};
-					167616A830A37598009754EA = {
 						CreatedOnToolsVersion = 27.1;
 						TestTargetID = 1676169130A37596009754EA;
 					};
@@ -188,7 +149,6 @@
 			targets = (
 				1676169130A37596009754EA /* LearnXCText */,
 				1676169E30A37598009754EA /* LearnXCTextTests */,
-				167616A830A37598009754EA /* LearnXCTextUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,14 +157,10 @@
 		1676169030A37596009754EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				167616BD30A3823C009754EA /* README.md in Resources */,
 			);
 		};
 		1676169D30A37598009754EA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			files = (
-			);
-		};
-		167616A730A37598009754EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -222,11 +178,6 @@
 			files = (
 			);
 		};
-		167616A530A37598009754EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-			);
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -234,11 +185,6 @@
 			isa = PBXTargetDependency;
 			target = 1676169130A37596009754EA /* LearnXCText */;
 			targetProxy = 167616A030A37598009754EA /* PBXContainerItemProxy */;
-		};
-		167616AB30A37598009754EA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1676169130A37596009754EA /* LearnXCText */;
-			targetProxy = 167616AA30A37598009754EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -469,44 +415,6 @@
 			};
 			name = Release;
 		};
-		167616B830A37598009754EA /* Debug configuration for PBXNativeTarget "LearnXCTextUITests" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K5YCQ9CRDY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.blogunikat.LearnXCTextUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = LearnXCText;
-			};
-			name = Debug;
-		};
-		167616B930A37598009754EA /* Release configuration for PBXNativeTarget "LearnXCTextUITests" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = K5YCQ9CRDY;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.blogunikat.LearnXCTextUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = LearnXCText;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -531,14 +439,6 @@
 			buildConfigurations = (
 				167616B530A37598009754EA /* Debug configuration for PBXNativeTarget "LearnXCTextTests" */,
 				167616B630A37598009754EA /* Release configuration for PBXNativeTarget "LearnXCTextTests" */,
-			);
-			defaultConfigurationName = Release;
-		};
-		167616B730A37598009754EA /* Build configuration list for PBXNativeTarget "LearnXCTextUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				167616B830A37598009754EA /* Debug configuration for PBXNativeTarget "LearnXCTextUITests" */,
-				167616B930A37598009754EA /* Release configuration for PBXNativeTarget "LearnXCTextUITests" */,
 			);
 			defaultConfigurationName = Release;
 		};
